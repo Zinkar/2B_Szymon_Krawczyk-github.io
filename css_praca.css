@@ -20,9 +20,15 @@ h2
 	color: white;
 	text-align: center;
 }
+h3
+{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
 #left
 {
-	float: left;
+	text-align: center;
 	
 	font-size: 24px;
 	color: white;
@@ -32,40 +38,21 @@ h2
 
 #left_zdjecie
 {
-	float: left;
+    
 	width: 300px;
 	hight: 300px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Nieodwiedzony link*/
-a:link
+#right_tekst
 {
-	color:white;
+	
+	float: right;
+	margin-left: 100px;
+	margin-right: 100px;
+
+	color: white;
+	
+
 }
 
-/*Odwiedzony link*/
-a:visited
-{
-	color:dark violet;
-}
-
-/*Link po najechaniu kursorem*/
-a:hover
-{
-	color: red;
-}
 
