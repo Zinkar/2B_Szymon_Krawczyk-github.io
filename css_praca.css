@@ -9,11 +9,24 @@ body
 
 
 
-h2
+h1
 {
 	font-size: 48px;
 	color: white;
+	text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Nieodwiedzony link*/
 a:link
