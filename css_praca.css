@@ -56,3 +56,34 @@ h3
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*Nieodwiedzony link*/
+a:link
+{
+	color:white;
+}
+
+/*Odwiedzony link*/
+a:visited
+{
+	color:dark violet;
+}
+
+/*Link po najechaniu kursorem*/
+a:hover
+{
+	color: red;
+}
+
+
