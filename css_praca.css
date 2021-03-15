@@ -2,7 +2,7 @@ body
 {
 	background-image: url(https://image.freepik.com/free-vector/realistic-monochromatic-tropical-leaves-wallpaper_52683-31305.jpg);
 	background-repeat: no-repeat;
-        background-size: cover;
+    background-size: cover;
 	
 }
 
@@ -13,18 +13,40 @@ h1
 	font-size: 48px;
 	color: white;
 	text-align: center;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 h2
 {
 	font-size: 24px;
 	color: white;
-	text-align: center;
+	text-align:  justify;
+	margin-left: 30px;
+	margin-right: 30px;
+	
 }
 h3
 {
+	font-size: 22px;
+	color: white;
+	text-align: justify;
+	margin-right: 20px;
+}
+h4
+{
 	font-size: 20px;
 	color: white;
+	text-align: left;
+	
+}
+h5
+{
+	font-size: 28px;
+	color: white;
 	text-align: center;
+	margin-left: 30px;
+	margin-right: 30px;
+	
 }
 #left
 {
@@ -39,8 +61,8 @@ h3
 #left_zdjecie
 {
     
-	width: 300px;
-	hight: 300px;
+	width: 500px;
+	hight: 500px;
 
 }
 #right_tekst
@@ -54,6 +76,44 @@ h3
 	
 
 }
+#right_zdjecie
+{
+	border: 5px solid darkgreen;
+	float: right;
+	width: 300px;
+	height: 300px;
+	margin: 20px;
+}
+#left_zdjeciem
+{
+	
+	border: 5px solid darkgreen;
+	float: left;
+	width: 300px;
+	height: 300px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#nav
+{
+	font-size: 18px;
+	float:left;
+	background-color: darkgrey;
+	width: 120px;
+	min-height: 1200px;
+	padding: 10px;
+	margin-right: 20px;
+}
+#zdjecie_centrum
+{
+	border: 5px solid darkgreen;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	width: 50%;
+	
+	
+}
 
 
 
@@ -67,6 +127,9 @@ h3
 
 
 
+
+
+}
 
 /*Nieodwiedzony link*/
 a:link
@@ -77,7 +140,7 @@ a:link
 /*Odwiedzony link*/
 a:visited
 {
-	color:dark violet;
+	color:yellow;
 }
 
 /*Link po najechaniu kursorem*/
@@ -85,5 +148,9 @@ a:hover
 {
 	color: red;
 }
+
+
+
+
 
 
